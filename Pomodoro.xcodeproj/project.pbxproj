@@ -22,6 +22,7 @@
 		48F9E28E1BF2742B005991A9 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F9E28D1BF2742B005991A9 /* GlanceController.swift */; };
 		48F9E2901BF2742B005991A9 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F9E28F1BF2742B005991A9 /* ComplicationController.swift */; };
 		48F9E2921BF2742B005991A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F9E2911BF2742B005991A9 /* Assets.xcassets */; };
+		48F9E2A21BF275C9005991A9 /* PomodoroItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F9E2A11BF275C9005991A9 /* PomodoroItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +88,7 @@
 		48F9E28F1BF2742B005991A9 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		48F9E2911BF2742B005991A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48F9E2931BF2742B005991A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F9E2A11BF275C9005991A9 /* PomodoroItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PomodoroItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				48F9E2621BF2742B005991A9 /* AppDelegate.swift */,
 				48F9E2641BF2742B005991A9 /* ViewController.swift */,
+				48F9E2A11BF275C9005991A9 /* PomodoroItem.swift */,
 				48F9E2661BF2742B005991A9 /* Main.storyboard */,
 				48F9E2691BF2742B005991A9 /* Assets.xcassets */,
 				48F9E26B1BF2742B005991A9 /* LaunchScreen.storyboard */,
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				48F9E2651BF2742B005991A9 /* ViewController.swift in Sources */,
+				48F9E2A21BF275C9005991A9 /* PomodoroItem.swift in Sources */,
 				48F9E2631BF2742B005991A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
